@@ -1,6 +1,6 @@
 <?php
 
-$EmailTo = "abctechweb@gmail.com";
+$EmailTo = "vitaliia@yurchaklawoffice.com";
 $Subject = "New Message Received";
 
 $errorMSG = "";

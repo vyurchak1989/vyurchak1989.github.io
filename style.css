@@ -3047,7 +3047,6 @@ h4.text-primary {
   display: inline-block;
   color: #ffffff;
   margin-right: 15px;
-  text-transform: capitalize;
   padding: 12px 0;
 }
 .header-contact-info ul li:first-child {
@@ -3064,6 +3063,12 @@ h4.text-primary {
 .header-contact-info ul li i {
   margin-right: 10px;
 }
+
+.header-contact-info ul li a {
+  margin-right: 10px;
+  color: #ffffff;
+}
+
 .header-contact-info ul:last-child {
   margin-right: 0;
 }
@@ -7132,6 +7137,9 @@ ul.honors-list li i {
 .service-box-layout3 li {
   color: #f6dee0;
 }
+.service-box-layout3 a {
+  color: #f6dee0;
+}
 .service-layout1-area {
   position: relative;
   bottom: 50px;
@@ -8469,6 +8477,11 @@ ul.practice-list li a:hover {
   background: #cc8809;
 }
 .corporate-address li p {
+  color: #d1d2d4;
+  font-weight: 300;
+  margin-bottom: 4px;
+}
+.corporate-address li a {
   color: #d1d2d4;
   font-weight: 300;
   margin-bottom: 4px;
