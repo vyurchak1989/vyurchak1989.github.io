@@ -198,11 +198,14 @@
         contactForm.validator().on('submit', function(e) {
             var _this = $(this),
                 target = contactForm.find('.form-response');
+            console.log("Inside contact form validation")
             if (e.isDefaultPrevented()) {
+                console.log("Default prevented")
                 target.html("<div class='alert alert-danger'><p>Please select all required field.</p></div>");
             } else {
+                console.log("sending ajax request");
                 $.ajax({
-                    url: "vendor/php/form-process.php",
+                    url: "vendor/php/request-appointment-email.php",
                     type: "POST",
                     data: contactForm.serialize(),
                     beforeSend: function() {
