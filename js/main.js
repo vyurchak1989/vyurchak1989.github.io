@@ -455,6 +455,7 @@
     $(document).on('click', '#top-search-form .search-button', function(e) {
         e.preventDefault();
 
+        console.log("I am here")
         var targrt = $(this).prev('input.search-input');
         targrt.animate({
             width: ["toggle", "swing"],
