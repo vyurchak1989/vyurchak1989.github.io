@@ -1361,9 +1361,12 @@ h4.text-primary {
 .slider-overlay {
   position: relative;
 }
+
+#freeConsultation {
+  color: #cc8809 !important;
+}
 .slider-overlay:before {
   content: "";
-  background-color: rgba(0, 0, 0, 0.6);
   height: 100%;
   width: 100%;
   position: absolute;
